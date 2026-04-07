@@ -95,7 +95,9 @@ Post a message to a channel.
 ```json
 {
   "channel_id": "C123ABC",
-  "text": "## Email\n\n**Subject:** meet jeff..."
+  "text": "## Email
+
+**Subject:** meet jeff..."
 }
 ```
 
@@ -142,3 +144,9 @@ After generating GTM materials, say "push to slack":
 ## License
 
 MIT
+
+---
+
+If Slack MCP saved you from context-switching out of your terminal, a ⭐ helps us know it's landing.
+
+Built by [2389](https://2389.ai) · Part of the [Claude Code plugin marketplace](https://github.com/2389-research/claude-plugins)
