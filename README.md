@@ -145,6 +145,13 @@ After generating GTM materials, say "push to slack":
 
 MIT
 
+## Installation
+
+```bash
+/plugin marketplace add 2389-research/claude-plugins
+/plugin install slack-mcp@2389-research
+```
+
 ---
 
 If Slack MCP saved you from context-switching out of your terminal, a ⭐ helps us know it's landing.
