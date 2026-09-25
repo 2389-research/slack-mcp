@@ -10,7 +10,8 @@
     "dev": "tsc --watch",
     "pretest": "npm run build",
     "test": "node --test tests/protocol.test.mjs tests/unit.test.mjs",
-    "test:e2e": "node --test tests/e2e.test.mjs"
+    "test:e2e": "node --test tests/e2e.test.mjs",
+    "check:install": "SLACK_BOT_TOKEN=install-check-dummy node scripts/check-plugin-install.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
