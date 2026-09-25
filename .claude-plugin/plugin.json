@@ -2,12 +2,13 @@
   "name": "slack-mcp",
   "description": "Slack workspace integration - create channels, invite users, post messages, and manage threads",
   "version": "1.1.0",
-  "type": "mcp",
-  "mcp": {
-    "command": "node",
-    "args": ["${CLAUDE_PLUGIN_ROOT}/dist/index.js"],
-    "env": {
-      "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}"
+  "mcpServers": {
+    "slack": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/index.js"],
+      "env": {
+        "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN:-}"
+      }
     }
   }
 }
